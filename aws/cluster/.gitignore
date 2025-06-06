@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Ansible
+*.retry
+
+# macOS
+.DS_Store
+
+# General
+*.log
+*.bak
