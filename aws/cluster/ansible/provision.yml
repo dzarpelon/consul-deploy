@@ -2,6 +2,10 @@
 - hosts: all
   become: yes
   tasks:
+    - name: Wait for SSH to come up
+      wait_for_connection:
+        timeout: 300
+
     - name: Set hostname
       ansible.builtin.hostname:
         name: "{{ inventory_hostname }}"
