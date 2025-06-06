@@ -6,6 +6,10 @@ crash.log
 *.tfvars
 *.tfvars.json
 
+# VS Code
+.vscode/
+*.code-workspace
+
 # Ansible
 *.retry
 
