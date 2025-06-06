@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "terraform init",
+      "type": "shell",
+      "command": "terraform init",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "terraform apply",
+      "type": "shell",
+      "command": "terraform apply -auto-approve",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
